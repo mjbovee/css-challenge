@@ -5,14 +5,87 @@
 * Some rules have been included here to give you a head start.
 * Create your own custom CSS rules below. Have fun!
 ******************************************************/
+* {
+	box-sizing: border-box;
+}
+
 html, body {
 	margin: 0;
 	box-sizing: border-box;
+	font-family: "Liberation Mono", Courier, monospace;
+}
+
+header {
+	margin: 0;
+	padding: 2em;
+	background-color: #333333;
+	color: #00ff00;
+}
+
+h1 {
+	margin-top: 0;
+	font-size: 3em;
+}
+
+h1, header em {
+	display: inline;
+}
+
+header em {
+	padding-left: 3em;
+	margin-right: 0;
+}
+
+.container > img {
+	margin-top: 4em;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.instructions-wrapper {
+	margin-top: 2em;
+	margin-bottom: 4em;
+	border: 5px solid black;
+	padding: 1em 2em;
+}
+
+.instructions-content {
+	width: 50%;
+	float: left;
+}
+
+.instructions-wrapper img {
+	width: 250px;
+	float: right;
+	padding-top: 1em;
+}
+
+.about-me {
+	background-color: #0000ff;
+	color: white;
+}
+
+.about-me img {
+	float: left;
+	width: 350px;
+	border: 3px solid white;
+	margin: 4em 2.5em 4em 0;
+
+
+}
+
+.about-me h2 {
+	padding-top: 64px;
+}
+
+.about-me span {
+	font-style: italic;
 }
 
 .container {
 	margin: 0 auto;
-	padding: 0 2rem;
+	padding: 0;
 }
 
 .clearfix {
